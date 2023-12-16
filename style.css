@@ -1,0 +1,29 @@
+/* work sans google font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* nav related styles  */
+header{
+    background-color: antiquewhite;
+    padding:50px 240px ;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul{
+    display: flex;  
+}
+ul > li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a {
+    text-decoration: none;
+    color: palevioletred;
+}
