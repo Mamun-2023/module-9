@@ -1,9 +1,15 @@
 /* work sans google font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
+/* shared style */
 *{
 font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    
 }
 /* nav related styles  */
 header{
@@ -26,4 +32,17 @@ ul > li{
 nav li a {
     text-decoration: none;
     color: palevioletred;
+}
+.web-head{
+   max-width: 800px;
+   text-align: center;
+   margin:0 auto;
+}
+.head-title{
+font-size: 4rem;
+font-weight: 750;
+color: #131313;
+}
+.head-details{
+color: #727272;
 }
